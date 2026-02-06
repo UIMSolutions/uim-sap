@@ -11,13 +11,15 @@
 module uim.sap.ids;
 
 // Public imports
-public import uim.sap.ids.client;
-public import uim.sap.ids.auth;
-public import uim.sap.ids.exceptions;
-public import uim.sap.ids.models;
-public import uim.sap.ids.users;
-public import uim.sap.ids.groups;
-public import uim.sap.ids.roles;
+public {
+    import uim.sap.ids.classes;
+    import uim.sap.ids.errors;
+    import uim.sap.ids.enumerations;
+    import uim.sap.ids.exceptions;
+    import uim.sap.ids.structs;
+    import uim.sap.ids.helpers;
+    import uim.sap.ids.interfaces;
+}
 
 // Version information
 enum UIM_SAP_IDENTITY_VERSION = "1.0.0";

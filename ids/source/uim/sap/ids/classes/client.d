@@ -7,7 +7,7 @@
  */
 module uim.sap.ids.client;
 
-import uim.sap.ids.models;
+import uim.sap.ids.structs;
 import uim.sap.ids.auth;
 import uim.sap.ids.exceptions;
 import uim.sap.ids.users;

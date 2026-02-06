@@ -5,7 +5,7 @@
  * License: Apache-2.0
  * Authors: Ozan Nurettin Süel
  */
-module uim.sap.ids.models.role;
+module uim.sap.ids.structs.role;
 
 import vibe.data.json;
 import std.datetime : SysTime;

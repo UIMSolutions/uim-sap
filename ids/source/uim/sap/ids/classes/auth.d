@@ -7,7 +7,7 @@
  */
 module uim.sap.ids.auth;
 
-import uim.sap.ids.models;
+import uim.sap.ids.structs;
 import uim.sap.ids.exceptions;
 import vibe.http.client;
 import vibe.data.json;

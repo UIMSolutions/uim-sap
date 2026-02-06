@@ -1,0 +1,30 @@
+{
+    "name": "uim-sap-fiori",
+    "description": "SAP Fiori client library for D language - OData services and Fiori Launchpad integration",
+    "homepage": "https://github.com/UIMSolutions/uim-sap",
+    "license": "Apache-2.0",
+    "authors": [
+        "Ozan Nurettin Süel"
+    ],
+    "copyright": "Copyright © 2018-2026, Ozan Nurettin Süel",
+    "targetType": "library",
+    "targetPath": "build",
+    "
+": "source",
+    "importPaths": [
+        "source"
+    ],
+    "dependencies": {
+        "vibe-d": "~>0.10.0",
+        "uim-core": "~>26.1.2"
+    },
+    "versions": [
+        "VibeCustomMain"
+    ],
+    "configurations": [
+        {
+            "name": "library",
+            "targetType": "library"
+        }
+    ]
+}

@@ -5,10 +5,13 @@
  * License: Apache-2.0
  * Authors: Ozan Nurettin Süel
  */
-module uim.sap.ids.models.oauth;
+module uim.sap.ids.structs.oauth;
 
 import std.datetime : SysTime, Clock;
 import core.time : dur;
+
+import uim.sap.ids;
+@safe:
 
 /**
  * OAuth2 token response

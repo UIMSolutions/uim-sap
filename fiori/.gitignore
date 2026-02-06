@@ -1,0 +1,13 @@
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+build/
+.dub/
+dub.selections.json
+__test__*
+*.lst

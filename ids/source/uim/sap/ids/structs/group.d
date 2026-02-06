@@ -5,10 +5,10 @@
  * License: Apache-2.0
  * Authors: Ozan Nurettin Süel
  */
-module uim.sap.ids.models.group;
+module uim.sap.ids.structs.group;
 
-import vibe.data.json;
-import std.datetime : SysTime;
+import uim.sap.ids;
+@safe:
 
 /**
  * Group member reference

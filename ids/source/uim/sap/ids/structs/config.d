@@ -5,20 +5,10 @@
  * License: Apache-2.0
  * Authors: Ozan Nurettin Süel
  */
-module uim.sap.ids.models.config;
+module uim.sap.ids.structs.config;
 
-import uim.sap.ids.exceptions;
-import std.string : format;
-import core.time : Duration, seconds;
-
-/**
- * SAP Cloud Identity Services API endpoint types
- */
-enum IdentityServiceType {
-    IAS,  // Identity Authentication Service
-    IPS,  // Identity Provisioning Service
-    IDS   // Identity Directory Service
-}
+import uim.sap.ids;
+@safe:
 
 /**
  * Configuration for SAP Cloud Identity Services

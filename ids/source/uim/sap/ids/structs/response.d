@@ -5,12 +5,12 @@
  * License: Apache-2.0
  * Authors: Ozan Nurettin Süel
  */
-module uim.sap.ids.models.response;
+module uim.sap.ids.structs.response;
 
 import vibe.data.json;
 import std.datetime : SysTime;
-import uim.sap.ids.models.user;
-import uim.sap.ids.models.group;
+import uim.sap.ids.structs.user;
+import uim.sap.ids.structs.group;
 
 /**
  * SCIM List Response (for paginated results)
