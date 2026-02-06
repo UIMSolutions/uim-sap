@@ -42,7 +42,7 @@ Or to your `dub.json`:
 ### Basic Connection
 
 ```d
-import uim.sap.identity;
+import uim.sap.ids;
 
 void main() {
     // Create an IAS client
@@ -62,7 +62,7 @@ void main() {
 ### User Management
 
 ```d
-import uim.sap.identity;
+import uim.sap.ids;
 
 void main() {
     auto client = IdentityClient.createIAS("tenant.host.com", "clientId", "secret");
@@ -100,7 +100,7 @@ void main() {
 ### Group Management
 
 ```d
-import uim.sap.identity;
+import uim.sap.ids;
 
 void main() {
     auto client = IdentityClient.createIAS("tenant.host.com", "clientId", "secret");
@@ -134,7 +134,7 @@ void main() {
 ### Advanced Search and Filtering
 
 ```d
-import uim.sap.identity;
+import uim.sap.ids;
 
 void main() {
     auto client = IdentityClient.createIAS("tenant.host.com", "clientId", "secret");
@@ -166,7 +166,7 @@ void main() {
 ### Custom Configuration
 
 ```d
-import uim.sap.identity;
+import uim.sap.ids;
 import core.time : seconds;
 
 void main() {
@@ -269,7 +269,7 @@ Examples:
 The library provides a comprehensive exception hierarchy:
 
 ```d
-import uim.sap.identity;
+import uim.sap.ids;
 
 try {
     auto client = IdentityClient.createIAS("host", "id", "secret");

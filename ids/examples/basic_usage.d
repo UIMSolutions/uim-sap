@@ -5,7 +5,7 @@
  * License: Apache-2.0
  * Authors: Ozan Nurettin Süel
  */
-import uim.sap.identity;
+import uim.sap.ids;
 import std.stdio : writeln, writefln;
 
 void main() {
