@@ -250,5 +250,3 @@ class GroupManager {
     }
 }
 
-// Forward declaration
-class IdentityClient;
